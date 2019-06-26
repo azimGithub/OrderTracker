@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="customer_selection_item_height">60dp</dimen>
+    <dimen name="customer_selection_item_row_divider_width">1dp</dimen>
+    <dimen name="customer_selection_margin">15dp</dimen>
+    <dimen name="customer_selection_item_text_size">14sp</dimen>
+    <dimen name="customer_selection_item_width">30dp</dimen>
+
+    <dimen name="dp5">5dp</dimen>
+    <dimen name="dp20">20dp</dimen>
+    <dimen name="dp10">10dp</dimen>
+    <dimen name="dp60">60dp</dimen>
+    <dimen name="dp50">50dp</dimen>
+    <dimen name="dp30">30dp</dimen>
+    <dimen name="dp40">40dp</dimen>
+    <dimen name="sp12">12sp</dimen>
+    <dimen name="dp1">1dp</dimen>
+    <dimen name="sp15">15sp</dimen>
+    <dimen name="sp13">13sp</dimen>
+    <dimen name="dp24">24dp</dimen>
+    <dimen name="dp12">12dp</dimen>
+    <dimen name="dp52">52dp</dimen>
+    <dimen name="dp2">2dp</dimen>
+    <dimen name="dp48">48dp</dimen>
+    <dimen name="dp8">8dp</dimen>
+    <dimen name="sp16">16sp</dimen>
+</resources>

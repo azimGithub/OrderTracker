@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "815995887102",
+    "firebase_url": "https://sales-tracker-9c644.firebaseio.com",
+    "project_id": "sales-tracker-9c644",
+    "storage_bucket": "sales-tracker-9c644.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815995887102:android:12e5ef7e8afee043",
+        "android_client_info": {
+          "package_name": "com.example.azim.ordertracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815995887102-t554ki6o0lck42nj86bquhcdu79kjf92.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.azim.ordertracker",
+            "certificate_hash": "188fea1b87df25fd41165e2cde3e79120c4f4d9d"
+          }
+        },
+        {
+          "client_id": "815995887102-ki99o50bdfv05g1asicurfm7l35saqic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWLUtYkwqr4MPiW6eL_EvyySL0M4HsrdQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815995887102-ki99o50bdfv05g1asicurfm7l35saqic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

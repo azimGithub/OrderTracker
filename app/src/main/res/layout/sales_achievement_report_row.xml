@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/dp5"
+    android:background="@drawable/customer_address_row_background">
+    <LinearLayout
+        android:layout_below="@+id/storeName_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/icode"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:text="fg68chafat001"
+            android:layout_marginRight="8dp"/>
+        <TextView
+            android:id="@+id/outletCount"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:text="1"
+            android:gravity="center"
+            android:layout_marginRight="8dp"/>
+        <TextView
+            android:id="@+id/qty"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:text="10"
+            android:gravity="center"
+            android:layout_marginRight="8dp"/>
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            android:text="80"
+            android:textAllCaps="true"
+            android:layout_marginRight="8dp"/>
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/iname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:textSize="14sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="chana fatka 40 gms*12.00"
+        android:textAllCaps="true"
+        android:layout_marginRight="8dp"/>
+
+</LinearLayout>

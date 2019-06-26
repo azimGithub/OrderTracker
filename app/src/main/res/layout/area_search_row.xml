@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="@dimen/customer_selection_item_height"
+    android:paddingRight="5dp"
+    android:clickable="true"
+    android:id="@+id/customer_row"
+    android:background="@drawable/customer_selection_item_row_background">
+
+    <LinearLayout
+        android:layout_width="@dimen/customer_selection_item_width"
+        android:visibility="gone"
+        android:layout_height="@dimen/customer_selection_item_height">
+
+        <ImageView
+            android:id="@+id/item_cart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:visibility="gone"
+            android:src="@drawable/ic_shopping_cart_black_24dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="@dimen/customer_selection_item_row_divider_width"
+        android:layout_height="match_parent"
+        android:paddingLeft="5dp"
+        android:background="@color/customer_selection_item_bacground"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/customer_selection_item_height"
+        android:paddingLeft="5dp">
+        <RelativeLayout
+            android:id="@+id/storeName"
+            android:layout_width="match_parent"
+
+            android:layout_height="30dp">
+            <TextView
+                android:id="@+id/store_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Suresh Pan"
+                android:textSize="18sp"/>
+            <ImageView
+                android:id="@+id/dropImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_blur_circular_black_24dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/storeCodeRow"
+            android:layout_below="@+id/storeName"
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+            <TextView
+                android:id="@+id/storeCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textSize="@dimen/customer_selection_item_text_size"
+                android:textColor="@color/colorPrimary"
+                android:text="04CB"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

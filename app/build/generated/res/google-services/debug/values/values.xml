@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">815995887102-ki99o50bdfv05g1asicurfm7l35saqic.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://sales-tracker-9c644.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">815995887102</string>
+    <string name="google_api_key" translatable="false">AIzaSyBWLUtYkwqr4MPiW6eL_EvyySL0M4HsrdQ</string>
+    <string name="google_app_id" translatable="false">1:815995887102:android:12e5ef7e8afee043</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBWLUtYkwqr4MPiW6eL_EvyySL0M4HsrdQ</string>
+    <string name="google_storage_bucket" translatable="false">sales-tracker-9c644.appspot.com</string>
+    <string name="project_id" translatable="false">sales-tracker-9c644</string>
+</resources>

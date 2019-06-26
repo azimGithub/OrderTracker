@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#333333</color>
+    <color name="white">#ffffff</color>
+    <color name="col_marron">#310604</color>
+
+
+    <color name="customer_selection_item_text_color">#333</color>
+    <color name="customer_selection_item_bacground">#787878</color>
+
+    <color name="colorPrimary">#37966F</color>
+    <color name="colorPrimaryDark">#356859</color>
+    <color name="colorSecondary">#FD5523</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="colorBackground">#FFFBE6</color>
+    <color name="colorBackground1">#B9E4C9</color>
+    <color name="colorText">#FFFFFF</color>
+    <color name="colorTextHint">#2C83CB</color>
+
+    <color name="colorPrimary1">#2C83CB</color>
+    <color name="colorPrimaryDark1">#303F9F</color>
+    <color name="colorAccent1">#FF4081</color>
+
+    <!--<color name="colorPrimary">#111</color>-->
+    <!--<color name="colorPrimaryDark">#FFF</color>-->
+    <!--<color name="colorAccent">#36D3B2</color>-->
+    <color name="contact_name">#333333</color>
+    <color name="contact_number">#8c8c8c</color>
+    <color name="naviblue">#064F7C</color>
+</resources>

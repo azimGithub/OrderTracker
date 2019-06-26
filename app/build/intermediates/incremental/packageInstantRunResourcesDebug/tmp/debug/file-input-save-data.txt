@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Mon Jun 24 09:23:58 IST 2019
+0.baseType=DIRECTORY
+0.base=D\:\\ClientProject\\OrderTracker\\app\\build\\intermediates\\merged_assets\\debug\\out
+0.path=crashlytics-build.properties
+0.set=ASSET
+count=1
